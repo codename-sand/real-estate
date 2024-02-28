@@ -1,0 +1,196 @@
+@charset "utf-8"; 
+
+.banner_area {
+	background: url(../img/tour_banner.png) no-repeat center center;
+}
+
+ul.lnb {
+	margin-bottom: 60px;
+}
+
+form {
+	clear: both;
+}
+
+form .area {
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	padding: 10px 20px;
+	margin-top: -1px;
+}
+
+form .area label {
+	line-height: 45px;
+	color: #2a2e39;
+	width: 180px;
+	float: left;
+}
+
+form .area label span {
+	font-weight: 600;
+	color: #d60000;
+}
+
+form .area input[type="text"] {
+	width: 1180px;
+	height: 45px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	background: #f7f7f7;
+	line-height: 43px;
+	padding-left: 15px;
+	font-family: inherit;
+	font-size: 16px;
+	color: #2a2e39;
+}
+
+form .area select {
+	float: left;
+	width: 120px;
+	height: 45px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	background: #f7f7f7;
+	line-height: 43px;
+	padding-left: 15px;
+	font-family: inherit;
+	font-size: 16px;
+	color: #2a2e39;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none; 
+	background: #f7f7f7 url(../img/select_bg.png) no-repeat right center;
+	cursor: pointer;
+}
+
+form .area img {
+	float: left;
+}
+
+form .area .calls {
+	width: 120px !important;
+	float: left;
+}
+
+form .area p {
+	line-height: 45px;
+	color: #2a2e39;
+	width: 180px;
+	float: left;
+}
+
+form .area p span {
+	font-weight: 600;
+	color: #d60000;
+}
+
+input .area .radios {
+	float: left;
+}
+
+.radio_wrap {
+	width: 16px; 
+	height: 16px; 
+	position: relative;
+	float: left;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+
+input[type="radio"] {
+	width: 16px;
+	height: 16px; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	margin: 0 !important; 
+	opacity: 0; 
+	z-index: 2;
+	cursor: pointer;
+}
+
+.radio_btn {
+	width: 16px; 
+	height: 16px; 
+	background: url(../img/uncheck.png); 
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+
+input[type="radio"]:checked + .radio_btn {
+	background: url(../img/check.png);
+}
+
+form .radios label {
+	width: auto;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+form .area textarea {
+	width: 1180px;
+	height: 160px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	background: #f7f7f7;
+	padding: 15px;
+	font-family: inherit;
+	font-size: 16px;
+	color: #2a2e39;
+	resize: none;
+}
+
+form p.text {
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 15px;
+	color: #2a2e39;
+	font-size: 15px;
+}
+
+form p.text span {
+	font-weight: 600;
+	color: #d60000;
+}
+
+form .btn {
+	width: 380px;
+	margin: 40px auto 0;
+}
+
+form .btn input[type="button"] {
+	float: left;
+	width: 180px;
+	height: 50px;
+	box-sizing: border-box;
+	line-height: 48px;
+	border: 1px solid #2a2e39;
+	color: #2a2e39;
+	display: block;
+	text-align: center;
+	border-radius: 25px;
+	transition: 0.4s;
+	background: none;
+	font-family: inherit;
+	font-size: 16px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+form .btn input[type="submit"] {
+	float: left;
+	width: 180px;
+	height: 50px;
+	box-sizing: border-box;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-radius: 25px;
+	transition: 0.4s;
+	font-family: inherit;
+	font-size: 16px;
+	background: #2a2e39;
+	color: white;
+	cursor: pointer;
+}

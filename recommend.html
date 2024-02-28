@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>부동산</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/list.css">
+
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="top mg_center">
+			<h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+			<p class="notice blue">NOTICE</p>
+			<a class="notice_link" href="notice_detail.html">부동산 안드로이드 앱이 출시되었습니다.</a>
+			<ul class="cf">
+				<li><a href="login.html">로그인</a></li>
+				<li><a href="join.html">회원가입</a></li>
+				<li><a href="mypage.html">마이페이지</a></li>
+			</ul>
+			<p class="call">1588-1234</p>
+		</div>
+
+		<div class="line"></div>
+
+		<div class="menu mg_center">
+			<ul class="cf">
+				<li><a href="">회사소개</a></li>
+
+				<li>
+					<a href="recommend.html">추천매물</a>
+					<ul class="sub_menu">
+						<li><a href="recommend.html">광주추천매물</a></li>
+						<li><a href="recommend.html">용인추천매물</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="gwangju.html">광주매물</a>
+					<ul class="sub_menu">
+						<li><a href="gwangju.html">신현리/능평리</a></li>
+						<li><a href="gwangju.html">양벌리/매산리</a></li>
+						<li><a href="gwangju.html">문형리/추자리</a></li>
+						<li><a href="gwangju.html">목현동/회덕동</a></li>
+						<li><a href="gwangju.html">태전동/쌍령동</a></li>
+						<li><a href="gwangju.html">송정동/탄벌동</a></li>
+						<li><a href="gwangju.html">경안동/장지동</a></li>
+						<li><a href="gwangju.html">삼동/중대동</a></li>
+						<li><a href="gwangju.html">곤지암읍/초월읍</a></li>
+						<li><a href="gwangju.html">퇴촌면/중부면</a></li>
+						<li><a href="gwangju.html">도척면/남종면</a></li>
+						<li><a href="gwangju.html">역동/직동/목동</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="yongin.html">용인매물</a>
+					<ul class="sub_menu">
+						<li><a href="yongin.html">용인시 처인구</a></li>
+						<li><a href="yongin.html">용인시 기흥구</a></li>
+						<li><a href="yongin.html">용인시 수지구</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="real.html">실입주금별</a>
+					<ul class="sub_menu">
+						<li><a href="real.html">1천만원 이하</a></li>
+						<li><a href="real.html">3천만원 이하</a></li>
+						<li><a href="real.html">5천만원 이하</a></li>
+						<li><a href="real.html">7천만원 이하</a></li>
+						<li><a href="real.html">8천만원 이상</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="price.html">분양가별</a>
+					<ul class="sub_menu">
+						<li><a href="price.html">1억 5천 이하</a></li>
+						<li><a href="price.html">1억 8천 이하</a></li>
+						<li><a href="price.html">2억 5천 이하</a></li>
+						<li><a href="price.html">2억 5천 이상</a></li>
+					</ul>
+				</li>
+
+				<li><a href="review.html">포토후기</a></li>
+			</ul>
+
+			<div class="search">
+				<form>
+					<input type="text">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+
+		<div class="line"></div>
+	</header>
+
+	<div class="mg_center">
+		<div class="banner_area">
+			<h4 class="black">추천매물</h4>
+			<p class="deepgray">우리가족 보금자리를 위한 부동산 최고의 매물들을 소개합니다.</p>
+		</div>
+
+		<ul class="lnb cf">
+			<li><a href="index.html">홈</a></li>
+			<li><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li><a href="recommend.html" class="black">추천매물</a></li>
+		</ul>
+
+		<table class="tab">
+			<tr>
+				<td onclick="location.href='recommend.html'" class="active">전체</td>
+				<td onclick="location.href=''">광주</td>
+				<td onclick="location.href=''">용인</td>
+			</tr>
+		</table>
+
+		<div class="info_filter cf">
+			<h5 class="black">추천매물 - 전체 <span class="blue">(57)</span></h5>
+
+			<ul class="filter">
+				<li><a href="" class="active">추천순</a></li>
+				<li><img src="img/filter_line.png" alt="filter_line"></li>
+				<li><a href="">조회순</a></li>
+				<li><img src="img/filter_line.png" alt="filter_line"></li>
+				<li><a href="">낮은 가격순</a></li>
+				<li><img src="img/filter_line.png" alt="filter_line"></li>
+				<li><a href="">높은 가격순</a></li>
+			</ul>
+		</div>
+
+		<ul class="house_list cf">
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/test_thumb01.png);"></div>
+					<p class="num"><span>No. 0001</span></p>
+					<p class="deepgray ellipsis">복합문화시설에 인접해 전망좋고 공기좋은 숲세권 매물</p>
+					<div class="price">
+						<p class="black">분양가 1억 8천 5백</p>
+						<p class="blue">실입주금 2천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+	 				<div class="img" style="background-image: url(img/test_thumb02.png);"></div>
+					<p class="num"><span>No. 0002</span></p>
+					<p class="deepgray ellipsis">넓은 평형대로 살림하기 편리한 구조</p>
+					<div class="price">
+						<p class="black">분양가 2억 2천 5백</p>
+						<p class="blue">실입주금 2천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/test_thumb03.png);"></div>
+					<p class="num"><span>No. 0003</span></p>
+					<p class="deepgray ellipsis">가까운 초,중학교와 편리한 대중교통!</p>
+					<div class="price">
+						<p class="black">분양가 2억 2천 5백</p>
+						<p class="blue">실입주금 3천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/test_thumb04.png);"></div>
+					<p class="num"><span>No. 0004</span></p>
+					<p class="deepgray ellipsis">도보 5분거리에 정류장과 마트가!</p>
+					<div class="price">
+						<p class="black">분양가 2억 4천 5백</p>
+						<p class="blue">실입주금 3천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="detail.html">
+					<div class="img" style="background-image: url(img/no_thumb.png);"></div>
+					<p class="num"><span>No. XXXX</span></p>
+					<p class="deepgray ellipsis">매물 관련 간단 소개 텍스트 영역</p>
+					<div class="price">
+						<p class="black">분양가 X억 X천 X백</p>
+						<p class="blue">실입주금 X천만원</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="pager cf">
+			<li class="prev"><a href=""><img src="img/pager_prev.png" alt="pager_prev"></a></li>
+			<li class="active"><a href="">1</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">5</a></li>
+			<li class="next"><a href=""><img src="img/pager_next.png" alt="pager_next"></a></li>
+		</ul>
+	</div>
+
+	<footer>
+		<img src="img/footer_logo.png" alt="footer_logo" class="footer_logo">
+		<p>부동산 대표번호 : <strong>1588-1234</strong><span><img src="img/footer_line.png" alt="footer_line"></span>사업자등록번호 : 123-45-67890<span><img src="img/footer_line.png" alt="footer_line"></span>대표이사 : 홍길동<br>경기도 성남시 중원구 양현로 461 엘림빌딩 4층<span><img src="img/footer_line.png" alt="footer_line"></span>E-mail : budongsan@naver.com</p>
+		<p class="copy">Copyright ⓒ 부동산. All rights reserved.</p>
+	</footer>
+</body>
+</html>

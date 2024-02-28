@@ -1,0 +1,83 @@
+@charset "utf-8"; 
+
+.lnb {
+	margin: 30px 0 60px;
+}
+
+h4.title {
+	clear: both;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+h6.title {
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.find {
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid #d4d4d4;
+}
+
+.find > div {
+	width: 599px;
+	float: left;
+}
+
+.find .find_pw {
+	box-sizing: border-box;
+	border-left: 1px solid #d4d4d4;
+	height: 100%;
+}
+
+.find h5.black {
+	text-align: center;
+	font-weight: 500;
+	margin: 50px 0 40px;
+}
+
+.find .text_box {
+	display: block;
+	width: 380px;
+	height: 45px;
+	line-height: 43px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	background: #f7f7f7;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	margin: 0 auto 10px;
+}
+
+.find .deepgray {
+	width: 380px;
+	margin: 0 auto 40px;
+	font-size: 14px;
+	font-weight: 300;
+	height: 45px;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.find .btn {
+	display: block;
+	width: 380px;
+	height: 50px;
+	background: #2a2e39;
+	font-family: inherit;
+	font-size: 16px;
+	margin: 0 auto;
+	color: white;
+	cursor: pointer;
+}
+
+.find .find_pw .btn {
+	margin-top: 40px;
+}

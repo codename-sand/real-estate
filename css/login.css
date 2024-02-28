@@ -1,0 +1,87 @@
+@charset "utf-8"; 
+
+.lnb {
+	margin: 30px 0 60px;
+}
+
+h4.title {
+	clear: both;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+h6.title {
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.login {
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+
+.login img.login_img {
+	float: left;
+}
+
+.login .login_area {
+	float: right;
+	width: 600px;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid #d4d4d4;
+	border-left: 0;
+}
+
+.login .login_area img.login_logo {
+	display: block;
+	margin: 60px auto 50px;
+}
+
+.login .login_area .text_box {
+	display: block;
+	width: 450px;
+	height: 45px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	line-height: 43px;
+	background: #f7f7f7;
+	font-family: inherit;
+	font-size: 16px;
+	color: #2a2e39;
+	margin: 0 auto 10px;
+	padding-left: 15px;
+}
+
+.login .login_area .bg_blue {
+	width: 450px;
+	height: 50px;
+	line-height: 50px;
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+	margin: 30px auto 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.login .login_area ul {
+	text-align: center;
+}
+
+.login .login_area ul li {
+	display: inline-block;
+}
+
+.login .login_area ul li a {
+	font-size: 15px;
+	color: #777777;
+}
+
+.login .login_area ul li img {
+	margin: 0 25px;
+}

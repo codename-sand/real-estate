@@ -1,0 +1,485 @@
+@charset "utf-8"; 
+
+
+/*
+title:common.css
+created: 2018-08-23
+last Modified:2018-08-27
+editor(s):Sangeun O
+last Editor:Sangeun O
+*/
+
+
+
+/************************************************
+
+					setting
+
+*************************************************/
+* {margin: 0; padding: 0; border: 0; outline: 0;}
+html, body {font-family: 'NotoSansKR', sans-serif; letter-spacing: -1px; height: 100%; -webkit-text-size-adjust: 100%;}
+ul, ol, dl {list-style:none;}
+a {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table, table tr, table td {border: 0; border-collapse: collapse; border-spacing: 0;}
+.blind, legend, caption {display: block; overflow: hidden;position: absolute; top: 0; left: -1000em;}
+.cf:after {clear: both; display: block; content: "";}
+.mg_center {margin: 0 auto;	width: 1400px;}
+
+
+
+
+
+/************************************************
+
+					text
+
+*************************************************/
+.ellipsis {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+h2 {font-size: 52px; font-weight: normal;}
+h3 {font-size: 40px; font-weight: normal;}
+h4 {font-size: 30px; font-weight: normal;}
+h5 {font-size: 18px; font-weight: normal;}
+h6 {font-size: 15px; font-weight: normal;}
+
+
+
+
+
+/**************************************************
+                       
+                       color
+
+***************************************************/
+/*font-color*/
+.white {color: #ffffff !important;}
+.black {color: #2a2e39 !important;}
+.deepgray {color: #777777 !important;}
+.gray {color: #d4d4d4 !important;}
+.blue {color: #5a6ef6 !important;}
+
+/*bg-color*/
+.bg_blue {background-color: #5a6ef6 !important;}
+.bg_gray {background-color: #f7f7f7 !important;}
+
+/*border-color*/
+.border_blue {border: 1px solid #5a6ef6 !important;}
+
+
+
+
+
+/**************************************************
+                       
+                       header
+
+***************************************************/
+header .top {
+	height: 80px;
+	line-height: 80px;
+	position: relative;
+}
+
+header .top h1 a {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -44px;
+}
+
+header .top p.notice {
+	float: left;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 15px;
+	letter-spacing: 1px;
+}
+
+header .top a.notice_link {
+	font-size: 14px;
+	color: #777777;
+	float: left;
+}
+
+header .top ul {
+	float: right;
+}
+
+header .top ul li {
+	float: left;
+	margin-left: 40px;
+}
+
+header .top ul li a {
+	font-size: 14px;
+	color: #777777;
+	transition: 0.2s;
+}
+
+header .top ul li a:hover {
+	color: #5a6ef6;
+}
+
+header .top p.call {
+	float: right;
+	color: #2a2e39;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background: url(../img/call_icon.png) no-repeat left center;
+	padding-left: 18px;
+	font-size: 14px;
+}
+
+header .line {
+	width: 100%;
+	height: 1px;
+	background: #d4d4d4;
+}
+
+header .menu {
+	height: 60px;
+	line-height: 60px;
+}
+
+header .menu > ul {
+	float: left;
+}
+
+header .menu > ul > li {
+	float: left;
+	margin-left: 120px;
+	position: relative;
+}
+
+header .menu > ul > li:first-child {
+	margin-left: 0;
+}
+
+header .menu > ul > li > a {
+	color: #2a2e39;
+	transition: 0.2s;
+}
+
+header .menu > ul > li:hover > a {
+	color: #5a6ef6;
+}
+
+header .menu .search {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	float: right;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+header .menu .search input[type="text"] {
+	float: left;
+	background: none;
+	line-height: 28px;
+	width: 160px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+header .menu .search input[type="submit"] {
+	width: 35px;
+	float: right;
+	line-height: 28px;
+	font-size: 0;
+	background: url(../img/search_icon.png) no-repeat center center;
+	cursor: pointer;
+}
+
+header .sub_menu {
+	position: absolute;
+	top: 60px;
+	left: -20px;
+	z-index: -1;
+	background: white;
+	min-width: 130px;
+	padding: 10px 20px;
+	border: 1px solid #d4d4d4;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+header .menu > ul > li:hover .sub_menu {
+	opacity: 1;
+	z-index: 99;
+}
+
+header .sub_menu li {
+	line-height: 35px;
+}
+
+header .sub_menu li a {
+	font-size: 15px;
+	color: #777777;
+	transition: 0.2s;
+}
+
+header .sub_menu li a:hover {
+	color: #2a2e39;
+}
+
+
+
+
+
+/**************************************************
+                       
+                      footer
+
+***************************************************/
+footer {
+	background: #222222;
+	padding-top: 30px;
+	margin-top: 120px;
+}
+
+footer img.footer_logo {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 200;
+	color: #777777;
+	letter-spacing: 0;
+}
+
+footer p strong {
+	font-weight: 400;
+}
+
+footer p span {
+	margin: 0 15px;
+}
+
+footer p.copy {
+	color: rgba(119, 119, 119, 0.6);
+	line-height: 50px;
+	margin-top: 20px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+/**************************************************
+                       
+                    sub page
+
+***************************************************/
+.house_list {
+	width: 1440px;
+}
+
+.house_list li {
+	float: left;
+	width: 320px;
+	position: relative;
+	border-bottom: 1px solid #d4d4d4;
+	margin-right: 40px;
+	margin-bottom: 60px;
+	background: white;
+}
+
+.house_list li .img {
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.house_list li .img:after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: url(../img/hover_img.png) no-repeat center center;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.house_list li:hover .img:after {
+	opacity: 1;
+}
+
+.house_list li p.num {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 185px;
+}
+
+.house_list li p.num span {
+	display: inline-block;
+	padding: 0 20px;
+	height: 30px;
+	line-height: 28px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	min-width: 100px;
+	color: #2a2e39;
+	border-radius: 15px;
+	background: white;
+}
+
+.house_list li p.deepgray {
+	padding: 0 20px;
+	text-align: center;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+.house_list li a .price {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.house_list li a .price p {
+	font-weight: 300;
+	display: inline-block;
+}
+
+.house_list li a .price .blue {
+	margin-left: 20px;
+}
+
+.round_btn {
+	width: 180px;
+	height: 50px;
+	box-sizing: border-box;
+	line-height: 48px;
+	border: 1px solid #2a2e39;
+	color: #2a2e39;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+
+.round_btn:hover {
+	background: #2a2e39;
+	color: white;
+}
+
+.banner_area {
+	width: 1400px;
+	margin: 30px auto 20px;
+	height: 200px;
+	padding-left: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.banner_area h4 {
+	font-weight: 500;
+	margin-top: 65px;
+	margin-bottom: 5px;
+}
+
+.banner_area p {
+	font-weight: 300;
+}
+
+.lnb {
+	float: right;
+}
+
+.lnb li {
+	float: left;
+	margin-left: 10px;
+}
+
+.lnb li a {
+	font-size: 15px;
+	color: #777777;
+}
+
+table.tab {
+	clear: both;
+	width: 100%;
+	border: 1px solid #d4d4d4;
+	table-layout: fixed;
+}
+
+table tr td {
+	text-align: center;
+	color: #2a2e39;
+	border: 1px solid #d4d4d4;
+	height: 45px;
+	cursor: pointer;
+}
+
+table tr td.active {
+	background: #2a2e39;
+	color: white;
+	border: 1px solid #2a2e39;
+}
+
+.info_filter {
+	margin-bottom: 30px;
+}
+
+.info_filter h5 {
+	float: left;
+}
+
+.info_filter .filter {
+	float: right;
+}
+
+.info_filter .filter li {
+	float: left;
+	margin-left: 20px;
+}
+
+.info_filter .filter li a {
+	color: #777777;
+	font-size: 14px;
+}
+
+.info_filter .filter li a.active {
+	font-weight: 500;
+	color: #2a2e39;
+}
+
+ul.pager {
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+ul.pager li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+ul.pager li.prev {
+	margin-left: 0;
+}
+
+ul.pager li a {
+	font-weight: 200;
+	color: #777777;
+	display: block;
+	width: 30px;
+	line-height: 20px;
+}
+
+ul.pager li.active a {
+	font-weight: 400;
+	color: #5a6ef6;
+}

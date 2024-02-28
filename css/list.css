@@ -1,0 +1,13 @@
+@charset "utf-8"; 
+
+.banner_area {
+	background: url(../img/list_banner.png) no-repeat center center;
+}
+
+ul.lnb {
+	margin-bottom: 40px;
+}
+
+table.tab {
+	margin-bottom: 40px;
+}
